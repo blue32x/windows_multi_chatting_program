@@ -1,0 +1,31 @@
+﻿빌드 시작: 2014-11-17 오후 10:03:57
+     1>2 노드의 "H:\ChatClient5\ChatClient\ChatClient.vcxproj" 프로젝트(Build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\ChatClient.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\opencv\build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ChatClient.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ChatClientDlg.cpp
+         ChatClientDlg.cpp
+     1>h:\chatclient5\chatclient\chatclientdlg.cpp(233): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 'sprintf' 선언을 참조하십시오.
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"H:\ChatClient5\Debug\ChatClient.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\opencv\build\x86\vc11\lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_nonfree2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_videostab2410d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"H:\ChatClient5\Debug\ChatClient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\ChatClient5\Debug\ChatClient.lib" /MACHINE:X86 Debug\ChatClient.res
+         Debug\ChatClient.obj
+         Debug\ChatClientDlg.obj
+         Debug\ChatConnector.obj
+         Debug\ClientSocket.obj
+         Debug\CvvImage.obj
+         Debug\Data.obj
+         Debug\ImageView.obj
+         Debug\stdafx.obj
+         ChatClient.vcxproj -> H:\ChatClient5\Debug\ChatClient.exe
+       FinalizeBuildStatus:
+         "Debug\ChatClient.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\ChatClient.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"H:\ChatClient5\ChatClient\ChatClient.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.54
